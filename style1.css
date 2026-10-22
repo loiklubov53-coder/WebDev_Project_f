@@ -1,0 +1,75 @@
+.low {
+height: 600px;
+background:
+url("https://images.unsplash.com/photo-1540551646-7586920d72a6?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D") center/cover;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.low h1 {
+color: white;
+background: #40383299;
+padding: 40px;
+text-align: center;
+font-size: 40px;
+
+}
+
+.catalog {
+display: inline-block;
+margin: 50px;
+padding: 12px 25px;
+background: #b5838d;
+color: white;
+border-radius: 5px;
+}
+
+body > h2 {
+text-align: center;
+color: #704653;
+}
+
+.flowers {
+display: flex;
+gap: 20px;
+overflow-x: auto;
+padding: 20px;
+scroll-snap-type: x mandatory;
+}
+
+.flower {
+min-width: 250px;
+padding: 12px;
+background: #fff8fa;
+text-align: center;
+border-radius: 10px;
+scroll-snap-align: start;
+}
+
+.flower img {
+width: 250px;
+height: 250px;
+object-fit: cover;
+border-radius: 8px;
+}
+
+.flower p {
+color: #704653;
+font-size: 22px;
+font-weight: bold;
+}
+
+.flower button {
+background: #704653;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.flower button:hover {
+background: #8d5d6c;
+}
