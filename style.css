@@ -22,10 +22,10 @@ body {
 }
 .catalog {
 display: inline-block;
-background-color: #b5838d;
+background-color: #935864;
 margin: 25px;
 padding: 15px 25px;
-color: white;
+color: black;
 border-radius: 5px;
 color: #f9eae1;
 
@@ -78,3 +78,5 @@ body {
     
 
    
+
+
