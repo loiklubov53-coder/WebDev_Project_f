@@ -21,7 +21,7 @@ font-size: 40px;
 display: inline-block;
 margin: 50px;
 padding: 12px 25px;
-background: #b5838d;
+background: #935864;
 color: white;
 border-radius: 5px;
 }
@@ -73,3 +73,4 @@ cursor: pointer;
 .flower button:hover {
 background: #8d5d6c;
 }
+
