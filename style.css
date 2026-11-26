@@ -31,7 +31,7 @@ color: #f9eae1;
 
 }
 
-.catalog:hover {
+.catalog: hover {
 
     background-color: #5e3023;
 
@@ -75,8 +75,121 @@ body {
 
 
 
+
+
+
+
+    @media screen and (max-width: 599px)
+{
     
+    body {
+        padding: 0 10px;
+    }
+    .wow {
+        height: 350px;
+    }
+    .wow h1 {
+        font-size: 24px;
+        padding: 20px;
+    }
+    .catalog {
+        display: block;
+        text-align: center;
+        margin: 15px 5px;
+        
+    }
+    .section {
+        flex-direction: column;
+        gap: 20px;
+        margin: 30px 0;
+    }
+    
+    .section img {
+        width: 100%;
+        height: 250px;
+    }
+    .section.reverse {
+        flex-direction: column;
+    }
+    
+    .section h2 {
+        font-size: 24px;
+    }
+    
+    .section p {
+        font-size: 15px;
+        
+    }
+}
 
-   
 
 
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px)
+{
+    
+    
+    body {
+        padding: 0 20px;
+    }
+    .wow {
+        height: 450px;
+    }
+    .wow h1 {
+        font-size: 32px;
+        padding: 30px;
+    }
+    .catalog {
+        display: block;
+        text-align: center;
+        margin: 15px 5px;
+        
+    }
+    .section {
+        flex-direction: column;
+        gap: 20px;
+        margin: 40px 0;
+    }
+    
+    .section img {
+        width: 30%;
+        height: 300px;
+    }
+    .section.reverse {
+        flex-direction: column;
+    }
+    
+    .section h2 {
+        font-size: 32px;
+    }
+    
+    .section p {
+        font-size: 16px;
+        
+    }
+}
+
+
+@media screen  and (max-width: 1024px)
+{
+    body {
+        padding: 0 30px;
+    }
+    .wow {
+        height: 600px;
+    }
+    .wow h1 {
+        font-size: 40px;
+    }
+    .section {
+        flex-direction: row;
+        gap: 40px;
+    }
+    .section img {
+        width: 25%;
+        height: 350px;
+    }
+}
